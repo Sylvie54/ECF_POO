@@ -59,7 +59,7 @@ public class Affichage extends javax.swing.JFrame {
         tableAffichage.setModel(modelClient);
         tableAffichage.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         TableColumnModel columnModel = tableAffichage.getColumnModel();
-        columnModel.getColumn(0).setPreferredWidth(80);
+        columnModel.getColumn(0).setPreferredWidth(500);
         columnModel.getColumn(1).setPreferredWidth(200);
         columnModel.getColumn(2).setPreferredWidth(200);
         columnModel.getColumn(3).setPreferredWidth(150);
